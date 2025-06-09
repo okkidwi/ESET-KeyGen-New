@@ -32,7 +32,7 @@ on:
         - --key
         - --small-business-key
         - --vpn-codes
-        default: --key
+        default: --vpn-codes
       os:
         description: 'Operating System of runner'
         required: true
@@ -41,7 +41,7 @@ on:
         - macOS
         - Linux
         - Windows
-        default: macOS
+        default: Linux
       branch:
         description: "Repository branch (don't touch it if you don't know what it is!!!)"
         required: false
